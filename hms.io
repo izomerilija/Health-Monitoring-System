@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h> 
-#include <OneWire.h> //pomocna biblioteka pri spajanju tri pina od temp. senzora u jedan izlaz (zicu)
+#include <OneWire.h> //pomocna biblioteka pri spajanju tri pina temp. senzora u jedan izlaz (zicu)
 #include <DallasTemperature.h> //biblioteka koja cini rad sa temp. senzorom laksim
 #define ONE_WIRE_BUS 2
 OneWire oneWire(ONE_WIRE_BUS);
